@@ -8,3 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
+https://bernabasa.github.io/RUNBUUDY2.0/
+
+## Contribution
+Made with ❤️ by Bernabas Abdeta
