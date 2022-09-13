@@ -18,6 +18,9 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -25,6 +28,12 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url("../images/hero-bg.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-position: 80%;
 }
 
 header a {
@@ -94,6 +103,8 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-attachment: fixed;
+background-position: 80%;
 }
 
 .hero-cta {
@@ -109,6 +120,7 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+
 }
 
 .hero-form {
@@ -118,7 +130,10 @@ section {
   color: #024e76;
   width: 40%;
   margin: 3.5%;
+  box-shadow: 0 0 10px rgba(252, 225, 56, 0.8);
+  border-radius: 15px;
 }
+
 
 .hero-form h3 {
   font-size: 24px;
@@ -366,6 +381,7 @@ section {
   header {
     padding: 0;
     justify-content: center;
+    position: relative;
   }
   header h1 {
     width: 100%;
